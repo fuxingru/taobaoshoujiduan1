@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/flexible.js"></script>
+    <script src="js/flexible_css.js"></script>
+    <script src="js/iconfont.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+</head>
+<style>
+    .icon {
+        width: 1em; height: 1em;
+        vertical-align: -0.15em;
+        fill: currentColor;
+        overflow: hidden;
+    }
+</style>
+<body>
+<div class="da-x">
+<!--header开始-->
+<header>
+    <div class="header-header">
+        <a href="">
+            <i class="iconfont icon-fangdajing"></i>
+            寻找宝贝店铺
+        </a>
+    </div>
+</header>
+<!--header结束-->
+
+<!--轮播开始-->
+<div class="lun">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/lut01.jpg" alt="" /></div>
+            <div class="swiper-slide"><img src="img/lut02.jpg" alt="" /></div>
+            <div class="swiper-slide"><img src="img/lut03.jpg" alt="" /></div>
+            <div class="swiper-slide"><img src="img/lut04.jpg" alt="" /></div>
+            <div class="swiper-slide"><img src="img/lut05.jpg" alt="" /></div>
+            <div class="swiper-slide"><img src="img/lut06.jpg" alt="" /></div>
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+<!-- 轮播结束-->
+
+
+
+<!--轮播js开始-->
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 10,
+        loop:true,
+        autoplay:true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+</script>
+<!--轮播js结束-->
+
+
+
+<!--container开始-->
+<div class="container">
+    <div class="fenlei">
+        <a href="index2.html" style="color: black">
+            <div class="fenlei-smll">
+                <div class="fenlei-smll-img"></div>
+                <div class="fenlei-smll-text">天猫</div>
+            </div>
+        </a>
+        <a href="index2.html" style="color: black">
+            <div class="fenlei-smll">
+                <div class="fenlei-smll-img" style="background-image: url('img/fl2.png')"></div>
+                <div class="fenlei-smll-text">聚划算</div>
+            </div>
+        </a>
+        <a href="index2.html" style="color: black">
+            <div class="fenlei-smll">
+                <div class="fenlei-smll-img" style="background-image: url('img/fl3.png')"></div>
+                <div class="fenlei-smll-text">天猫国际</div>
+            </div>
+        </a>
+        <a href="index2.html" style="color: black">
+            <div class="fenlei-smll">
+                <div class="fenlei-smll-img" style="background-image: url('img/fl4.png')"></div>
+                <div class="fenlei-smll-text">外卖</div>
+            </div>
+         </a>
+        <a href="index2.html" style="color: black">
+            <div class="fenlei-smll">
+                <div class="fenlei-smll-img" style="background-image: url('img/fl5.png')"></div>
+                <div class="fenlei-smll-text">天猫超市</div>
+            </div>
+         </a>
+        <a href="index2.html" style="color: black">
+            <div class="fenlei-smll">
+                <div class="fenlei-smll-img" style="background-image: url('img/fl6.png')"></div>
+                <div class="fenlei-smll-text">充值中心</div>
+            </div>
+        </a>
+        <a href="index2.html" style="color: black">
+            <div class="fenlei-smll">
+                <div class="fenlei-smll-img" style="background-image: url('img/fl7.png')"></div>
+                <div class="fenlei-smll-text">飞猪旅行</div>
+            </div>
+        </a>
+        <a href="index2.html" style="color: black">
+            <div class="fenlei-smll">
+                <div class="fenlei-smll-img" style="background-image: url('img/fl8.png')"></div>
+                <div class="fenlei-smll-text">领金币</div>
+            </div>
+        </a>
+        <a href="index2.html" style="color: black">
+            <div class="fenlei-smll">
+                <div class="fenlei-smll-img" style="background-image: url('img/fl9.png')"></div>
+                <div class="fenlei-smll-text">拍卖</div>
+            </div>
+        </a>
+        <a href="index2.html" style="color: black">
+            <div class="fenlei-smll">
+                <div class="fenlei-smll-img" style="background-image: url('img/fl10.png')"></div>
+                <div class="fenlei-smll-text">分类</div>
+            </div>
+        </a>
+
+    </div>
+    <div class="container-two">
+        <div class="swiper-container one"></div>
+        <div class="swiper-container two">
+            <div class="swiper-wrapper one">
+                <div class="swiper-slide">
+                    <span>手机</span> Type-c接口的手机功能居然这么多
+                </div>
+                <div class="swiper-slide">
+                    <span>运动</span> 致敬科比！全球仅一双紫金Kobe AD
+                </div>
+                <div class="swiper-slide">
+                    <span>装修</span> 瓷砖干铺和湿铺区别这么大？
+                </div>
+                <div class="swiper-slide">
+                    <span>美女</span> 百斤的微胖女生，搭配注意3点瘦
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/swiper.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                spaceBetween: 10,
+                loop: true,
+                autoplay: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+            });
+        </script>
+    </div>
+</div>
+<!--container结束-->
+
+<!--banner开始-->
+<div class="banner">
+    <div class="banner-left">
+        <div class="banner-shijian" data-ctrl-name="counter" data-enddate="Fri Dec 22 2017 14:59:59 GMT+0800(中国标准时间)">
+            <span role="h">00</span>
+            <span class="dot">:</span>
+            <span role="m">01</span>
+            <span class="dot">:</span>
+            <span role="s">01</span>
+        </div>
+    </div>
+    <div class="banner-right">
+        <div class="banner-right-top">
+            <div class="top-one"></div>
+            <div class="top-two"></div>
+        </div>
+        <div class="banner-right-bottom">
+            <div class="bottom-one"></div>
+            <div class="bottom-two"></div>
+        </div>
+    </div>
+</div>
+<!--banner结束-->
+
+<!--banner-one开始-->
+<div class="banner-one">
+    <div class="banner-one-top">
+        <a href="">
+           超实惠
+        </a>
+    </div>
+    <div class="banner-one-bottom">
+        <div class="banner-one-left">
+            <div class="banner-one-left-top"></div>
+            <div class="banner-one-right-bottom"></div>
+        </div>
+        <div class="banner-one-rigth">
+            <div class="banner-rigth-top"></div>
+            <div class="banner-rigth-top"></div>
+            <div class="banner-rigth-top"></div>
+            <div class="banner-rigth-top"></div>
+            <div class="banner-rigth-top"></div>
+            <div class="banner-rigth-top"></div>
+        </div>
+    </div>
+</div>
+<!--banner-one结束-->
+
+<!--banner-four开始-->
+<div class="banner-four">
+    <div class="banner-four-top">
+        <a href="">
+            天猫必逛
+        </a>
+    </div>
+    <div class="tianmaobiguang_centet">
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="tianmaobiguang_bottom">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+<!--banner-four结束-->
+
+<!--banner-two开始-->
+<div class="banner-two">
+    <div class="banner-two-top">
+        <a href="">
+            特色好货
+        </a>
+    </div>
+    <div class="banner-two-bottom">
+        <div class="banner-two-left">
+            <div class="banner-two-left-top"></div>
+            <div class="banner-two-right-bottom"></div>
+        </div>
+        <div class="banner-two-rigth">
+            <div class="banner-rigth-top"></div>
+            <div class="banner-rigth-top"></div>
+            <div class="banner-rigth-top"></div>
+            <div class="banner-rigth-top"></div>
+            <div class="banner-rigth-top"></div>
+            <div class="banner-rigth-top"></div>
+        </div>
+    </div>
+</div>
+<!--banner-two结束-->
+
+<!--banner-three开始-->
+<div class="banner-three">
+    <div class="banner-three-top">
+        <div class="baanner-three-top-bg"></div>
+        <div class="banner-three-top-wenzi">
+            <span>更多</span>
+            <span style="color: #f71e0a">></span>
+        </div>
+    </div>
+    <div class="banner-three-bottom"></div>
+</div>
+<!--banner-three结束-->
+
+<!--banner-five开始-->
+<div class="banner-five">
+    <div class="banner-five-top">
+        <div class="five-top-wenzi">
+            每日好店
+        </div>
+        <div class="five-top-xiaowenzi">
+            <span>更多</span>
+            <img src="img/xiaotubiao3.png" alt="" style="vertical-align: text-top;">
+        </div>
+    </div>
+    <div class="banner-five-bottom">
+        <div class="swiper-container three">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide four">
+                    <div class="fxr">
+                        <div class="lunbo-top">
+                            <div class="lunbo-top-left">
+                                <img src="img/c1.jpg" alt="">
+                            </div>
+                            <div class="lunbo-top-right">
+                                <img src="img/c2.jpg" alt="">
+                                <img src="img/c3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="lunbo-bottom" style="margin-top: 0.2rem;">
+                            今日推荐
+                        </div>
+                    </div>
+                    <div class="fxr">
+                        <div class="lunbo-top">
+                            <div class="lunbo-top-left">
+                                <img src="img/aa1.jpg" alt="">
+                            </div>
+                            <div class="lunbo-top-right">
+                                <img src="img/aa2.jpg" alt="">
+                                <img src="img/aa3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="lunbo-bottom" style="margin-top: 0.2rem;">
+                            吃吃吃
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide four">
+                    <div class="fxr">
+                        <div class="lunbo-top">
+                            <div class="lunbo-top-left">
+                                <img src="img/bb1.jpg" alt="">
+                            </div>
+                            <div class="lunbo-top-right">
+                                <img src="img/bb2.jpg" alt="">
+                                <img src="img/bb3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="lunbo-bottom" style="margin-top: 0.2rem;">
+                          包包控
+                        </div>
+                    </div>
+                    <div class="fxr">
+                        <div class="lunbo-top">
+                            <div class="lunbo-top-left">
+                                <img src="img/cc1.jpg" alt="">
+                            </div>
+                            <div class="lunbo-top-right">
+                                <img src="img/cc2.jpg" alt="">
+                                <img src="img/cc3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="lunbo-bottom" style="margin-top: 0.2rem;">
+                            有逼格
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 10,
+        loop:true,
+        autoplay:true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+</script>
+<!--banner-five结束-->
+
+<!--banner-six开始-->
+<div class="banner-six">
+    <div class="banner-six-top">
+        <a href="">
+          猜你喜欢
+        </a>
+        <div>实时推荐你最喜欢的宝贝</div>
+    </div>
+    <div class="banner-six-bottom">
+        <div class="six-bottom-samll">
+            <div class="six-smll-img"></div>
+            <div class="six-smll-text"><div class="six-text-sxie">[为你推荐]纯棉斜纹布条纹格子布纯棉床...</div><span style="color: #fe5400">$38.0</span></div>
+        </div>
+        <div class="six-bottom-samll" style="margin-left: 0.4rem;">
+            <div class="six-smll-img"></div>
+            <div class="six-smll-text"><div class="six-text-sxie">[为你推荐]非油炸大碗面面条九斤包邮方便面泡面...</div><span style="color: #fe5400">$38.0</span></div>
+        </div>
+        <div class="six-bottom-samll">
+            <div class="six-smll-img"></div>
+            <div class="six-smll-text"><div class="six-text-sxie">[为你推荐]6存铁艺小太阳桌面取暖器四寸迷你家用...</div><span style="color: #fe5400">$38.0</span></div>
+        </div>
+        <div class="six-bottom-samll" style="margin-left: 0.4rem;">
+            <div class="six-smll-img"></div>
+            <div class="six-smll-text"><div class="six-text-sxie">[为你推荐]衣帽架衣架落地欧式卧室创意客厅...</div><span style="color: #fe5400">$38.0</span></div>
+        </div>
+    </div>
+</div>
+<!--banner-six结束-->
+
+<!--footer-one开始-->
+<div class="footer-one">
+    <div class="footer-one-center">
+        <div class="footer-one-top">
+            <ul>
+                <li style="margin-left: 0">登录</li>
+                <li>注册</li>
+                <li>电脑版</li>
+                <li>用户反馈</li>
+            </ul>
+        </div>
+        <div class="footer-one-tobottom">
+            2016 浙 B2-20080224 服务中心
+        </div>
+    </div>
+</div>
+<!--footer-one结束-->
+
+<!--footer开始-->
+<footer>
+    <ul>
+        <li>
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-shouye"></use>
+            </svg>
+            <span>首页</span>
+        </li>
+        <li>
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-buoumaotubiao39"></use>
+            </svg>
+            <span>物流</span>
+        </li>
+        <li>
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-cart-copy"></use>
+            </svg>
+            <span>购物车</span>
+        </li>
+        <li>
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-wodetaobao"></use>
+            </svg>
+            <span>我的淘宝</span>
+        </li>
+        <li>
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href=" #icon-gengduo"></use>
+            </svg>
+            <span>更多</span>
+        </li>
+    </ul>
+</footer>
+<!--footer结束-->
+</div>
+</body>
+</html>
